@@ -1,0 +1,15 @@
+server:
+      port: 7980
+
+spring:
+   rabbitmq:
+            host: localhost
+            port: 5672
+            username: abhi
+            password: abhi
+            virtualhost: vhost
+
+rabbitmq:
+      exchange: exchange_1
+      queue: queue_1    
+
